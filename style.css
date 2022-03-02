@@ -5,14 +5,10 @@ body {
     margin: 0;
     background: rgb(32, 30, 30);
   }
-  
   small {
     font-size: 12px;
     color: rgba(0, 0, 0, 0.4);
   }
-  
-  
-  
   h2 {
     text-align: center;
     font-size: 30px;
@@ -94,6 +90,28 @@ body {
   nav.menu ul li a:hover:before {
     width: 100%;
   }
+
+ul, li{
+  color: rgb(83, 40, 226);
+  font-size: xx-large;
+  text-shadow: 2px 2px 3px grey;
+  text-align: justify;
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+#szolgh1{
+  font-size: 70px;
+  color: rgb(83, 40, 226);
+  font-style: italic;
+}
+#grafikon{
+  float: right;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px black;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  border: 3px solid rgb(83, 40, 226);
+}
   img:nth-child(1){
       float: left;
       border-radius: 10%;
