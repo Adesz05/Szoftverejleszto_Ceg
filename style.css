@@ -117,38 +117,100 @@ body {
   border-radius: 10%;
   box-shadow: 5px 5px 10px black;
   margin-right: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
   border: 3px solid rgb(83, 40, 226);
 }
-  img:nth-child(1){
-      float: left;
-      border-radius: 10%;
-  }
-  p:nth-child(1){
-    margin-left: 18vh;
-    margin-top: 18vh;
-  }
-  h3{
-    text-align: center;
-    color: rgb(211, 206, 206);  
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+img:nth-child(1){
+    float: left;
+    border-radius: 10%;
+}
+p:nth-child(1){
+  margin-left: 18vh;
+  margin-top: 18vh;
+}
+h3{
+  text-align: center;
+  color: rgb(211, 206, 206);  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  
+}
+#szoveg{
+    text-align: justify;
+    letter-spacing: 1px;
+  color: rgb(211, 206, 206);
+  padding-left:750px;
+  padding-right: 100px;
+  line-height: 1.5;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.forrasok{
+    text-decoration: none;
+    color: white;
+}
+footer{
+  position: fixed;
+  text-align: left;
+  padding: 0;
+  margin-top: 50px;
+}
+#logo{
+  width: 240px;
+  height: 135px;
+  
+}
+#diploma1{
+  width: 60vh;
+  height: 45vh;
+  float: left;
+}
+#diploma2{
+  width: 60vh;
+  height: 45vh;
+  float: right;
+}
+#kepek{
+  width: 1920px;
+}
+#szovegecske{
+  color: white;
+  font-size: 1ch;
+  padding-top: 0px;
+  padding-left: 140px;
+}
+#szovegecske1{
+  color: white;
+  font-size: 1ch;
+  float: right;
+  margin-top: 0;
+  padding-top: 0;
+  padding-right: 140px; 
+}
+#bemutatkozascim{
+  font-size: 250%;
+}
+#adika{
+  border-radius: 60%;
+  width: 7%;
+  height: 7%;
+}
+#kortisz{
+  border-radius: 60%;
+  float: right;
+  width: 7%;
+  height: 7%;
+}
+  #kepekkozotti{
+    color: white;
     
   }
-  #szoveg{
-      text-align: justify;
-      letter-spacing: 1px;
-    color: rgb(211, 206, 206);
-    padding-left:750px;
-    padding-right: 100px;
-    line-height: 1.5;
-    font-size: larger;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+  #progik{
+    padding: 0px 50px;
+    width: 620px;
+    height: 300px;
   }
-  .forrasok{
-      text-decoration: none;
-      color: white;
-  }
+
   
   
